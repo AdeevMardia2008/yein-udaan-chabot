@@ -64,7 +64,7 @@ st.sidebar.image("https://media.licdn.com/dms/image/v2/C560BAQGRYNPJyfbZKw/compa
 st.sidebar.markdown("# Yein Udaan")
 
 # Configure the Google Generative AI
-GOOGLE_API_KEY = "AIzaSyCoFoWq7l1QLzWprrj5M7cb6fctyMH6lmU"
+GOOGLE_API_KEY = "AIzaSyAm6qZzMlXpfV6GQezVqDlIzOk4Y4Ri3bw"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 geminiModel = genai.GenerativeModel("gemini-2.0-flash")
