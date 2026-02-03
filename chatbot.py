@@ -67,7 +67,7 @@ st.sidebar.markdown("# Yein Udaan")
 GOOGLE_API_KEY = "AIzaSyAm6qZzMlXpfV6GQezVqDlIzOk4Y4Ri3bw"
 genai.configure(api_key=GOOGLE_API_KEY)
 
-geminiModel = genai.GenerativeModel("gemini-2.0-flash")
+geminiModel = genai.GenerativeModel("gemini-3-flash-preview")
 chat = geminiModel.start_chat(history=[])
 
 def get_gemini_response(query):
